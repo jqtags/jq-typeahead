@@ -107,6 +107,8 @@ _tag_('jqtags.typeahead', function (test) {
           }
         }
       }
+      this.trigger("change");
+      this.trigger("input");
     },
     setValue : function(e,oldValue,newValue){
       this.$typeahead.typeahead('val',newValue);

@@ -2,22 +2,20 @@
 
 |Tag| Attribute | Value | Description |
 |------|-----|------|---|
-| jq-tab |   value  |  text    |  value of tab active |
-| jq-tab-head|value|    text  | value to be set when selected  |
-| jq-tab-pane|tab|    text  | value to be set when selected  |
+| jq-typeahead |   value  |  text    |  value of input |
 
 
 
 ###Events
 |Tag| Event Attribute | Event | Description |
 |------|-----|-----|------|
-| jq-tab |onchange|change|  when tab is selected |
+| jq-typeahead |onchange|change|  when value is selected |
 
 ###jQuery Methods
 |Tag| Method | Arguments | Returns | Description
 |------|-----|-----|------|------|
-| jq-tab |val|  | string |  active tab value |
-| jq-tab |val| text | string |  changes the active tab |
+| jq-typeahead |val|  | string |  input text value |
+| jq-typeahead |val| text | string |  changes the text |
 
 
 
