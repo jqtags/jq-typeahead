@@ -1,0 +1,16 @@
+{
+
+  "name": "jqtags/jq-typeahead",
+  "jqtags/jq-typeahead/ext" : {
+      "js" : ["../components/typeahead.js/dist/typeahead.bundle.js"]
+  },
+  "jqtags/jq-typeahead": {
+    "js": ["jqtags.typeahead.js"],
+    "on": ["webmodules/jqtag","jsutils/cache","jqtags/jq-typeahead/ext"]
+  },
+  "jqtags/jq-typeahead/test": {
+    "js": ["test/jqtags.typeahead.test.js"],
+    "on": ["jqtags/jq-typeahead"]
+  }
+
+}

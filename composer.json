@@ -1,0 +1,12 @@
+{
+    "name": "jqtags/jq-typeahead",
+    "type": "tag",
+    "description": "advanced jquery time tag",
+    "keywords": ["x-tag", "polymer", "pitana"],
+    "license": "MIT",
+
+    "require": {
+      "webmodules/jqtag" : ">=0.0.1"
+    }
+    
+}
