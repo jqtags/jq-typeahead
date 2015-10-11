@@ -2,7 +2,7 @@
 
   "name": "jqtags/jq-typeahead",
   "jqtags/jq-typeahead/ext" : {
-      "js" : ["../components/typeahead.js/dist/typeahead.bundle.js"]
+      "js" : ["../typeahead.js/dist/typeahead.bundle.js"]
   },
   "jqtags/jq-typeahead": {
     "js": ["jqtags.typeahead.js"],
